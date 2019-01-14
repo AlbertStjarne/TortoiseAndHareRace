@@ -30,9 +30,10 @@ namespace _22_TortoiseAndHareRace.Properties
             }
         }
 
-        public void RunnerPosition()
+        public void RunnerPosition(Runner runner)
         {
-
+            Tracks[runner.OrigPosition, runner.Lane] = null;
+            Tracks[runner.CurrentPosition, runner.Lane] = runner.RunnerSymbol;
         }
 
     }
