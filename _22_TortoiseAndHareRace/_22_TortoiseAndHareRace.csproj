@@ -38,6 +38,7 @@
     <Compile Include="Properties\Runner.cs" />
     <Compile Include="Properties\Tortoise.cs" />
     <Compile Include="Properties\MoveType.cs" />
+    <Compile Include="Properties\Hare.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
