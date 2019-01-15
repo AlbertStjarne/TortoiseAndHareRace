@@ -7,8 +7,8 @@ namespace _22_TortoiseAndHareRace
     {
         static void Main(string[] args)
         {
-            var track = new Track();
-            track.DisplayRaceTrack();
+            var race = new Race();
+            race.Racing();
         }
     }
 }

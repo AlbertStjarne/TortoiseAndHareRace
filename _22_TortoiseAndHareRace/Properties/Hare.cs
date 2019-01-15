@@ -10,7 +10,7 @@ namespace _22_TortoiseAndHareRace.Properties
             CurrentPosition = currentPosition;
             Lane = lane;
             Name = name;
-            RunnerSymbol = "H"
+            RunnerSymbol = "H";
             MoveDescription = $"{Name} is READY! SET! GO!";
             AllRunners.Add(this);
         }
