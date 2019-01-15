@@ -12,5 +12,6 @@ namespace _22_TortoiseAndHareRace.Properties
         public const int  BigSlip = -12;
         public const int  SmallHop = 1;
         public const int  SmallSlip = -2;
+        public const int AlbertJump = 5;
     }
 }

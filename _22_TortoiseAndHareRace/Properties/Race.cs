@@ -13,6 +13,7 @@ namespace _22_TortoiseAndHareRace.Properties
             _track = new Track();
             new Tortoise(0, 0, "Tortoise");
             new Hare(0, 1, "Hare");
+            new Albert(0, 2, "Albert");
             _raceOver = false;
         }
 

@@ -4,8 +4,8 @@ namespace _22_TortoiseAndHareRace.Properties
 {
     public class Track
     {
-        public const int TrackLength = 10;
-        public const int NumOfRunners = 2;
+        public const int TrackLength = 35;
+        public const int NumOfRunners = 3;
 
         public string[,] Tracks { get; set; }
 
